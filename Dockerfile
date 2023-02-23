@@ -1,6 +1,7 @@
 FROM node:19
 
 WORKDIR /usr/src/app
+VOLUME [ "/usr/src/app/config" ]
 
 COPY package*.json ./
 
